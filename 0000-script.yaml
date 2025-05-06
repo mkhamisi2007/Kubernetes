@@ -4,7 +4,7 @@ kubectl exec -it mysql-replica-0 -- /bin/bash
 
 mysql --user=myuser --password=mypassword mydatabase
 
-CREATE TABLE Persons (
+CREATE TABLE Persons ( 
     PersonID int,
     LastName varchar(255),
     FirstName varchar(255),
