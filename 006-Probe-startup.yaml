@@ -14,4 +14,4 @@ spec:
         - /tmp/healthy  # Check if the file exists
       initialDelaySeconds: 0
       periodSeconds: 5
-      failureThreshold: 10  # Allow up to 10 * 5s (50s) before marking as failed
+      failureThreshold: 10  # Allow up to 10 * 5s (50s) before marking as failed 
