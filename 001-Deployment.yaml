@@ -6,7 +6,7 @@ metadata:
   labels:
     deploy: app
   annotations:
-    kubernetes.io/change-cause: "changing nginx image to 1.24" 
+    kubernetes.io/change-cause: "changing nginx image to 1.25" 
 spec:
   replicas: 5
   selector:
