@@ -1,0 +1,22 @@
+kubectl exec -it mysql-0 -c mysql -- /bin/bash
+
+kubectl exec -it mysql-replica-0 -- /bin/bash
+
+mysql --user=myuser --password=mypassword mydatabase
+
+CREATE TABLE Persons ( 
+    PersonID int,
+    LastName varchar(255),
+    FirstName varchar(255),
+    Address varchar(255),
+    City varchar(255)
+);
+
+insert into Persons values(12,"ali","khamisi","koy","ahvaz");
+select * from Persons;
+
+use mydatabase;
+mysql -uroot -p123
+
+mysql -ureplication_user -preplication_password
+mysql --user=replication_user --password=replication_password mydatabase
